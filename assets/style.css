@@ -68,44 +68,40 @@ h5 {
   font-size: 1.2rem;
 }
 
-section {
-  height: 100vh;
-  display: flex;
-  width: 100%;
+.bg-primary {
   background-color: antiquewhite;
 }
 
-.about-page,
-.dining,
-.adventure {
+.section {
+  height: 100vh;
+  display: flex;
+  width: 100%;
   justify-content: space-around;
   align-items: center;
   text-align: center;
   padding: 2rem;
 }
 
-.about-page img,
-.dining img,
-.adventure img {
+.section>img {
   height: 80%;
   width: 70%;
   border-radius: 50px;
   padding: 1rem 1.5rem;
 }
 
-.about-paragraph h4,
-.dining h4,
-.adventure h4 {
+.section>.section-text {
+  font-size: 1.1rem;
+}
+
+.section>.section-text>*:first-child {
   font-size: 2rem;
   padding-bottom: 20px;
 }
 
-.about-page p .dining p,
-.adventure p {
-  font-size: 1.1rem;
-}
-
 .contact-section {
+  height: 100vh;
+  display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;

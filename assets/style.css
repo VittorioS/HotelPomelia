@@ -1,0 +1,215 @@
+/*we use the universal selector to remove the default margin and padding and 
+to ensure padding and border are included within the elements total width and height*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-family: "Architects Daughter", cursive;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  align-items: center;
+  background-color: #001F3F;
+  position: sticky;
+  top: 0;
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  padding: 1.5rem 1.7rem;
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+.logo img{
+  border-radius: 70px;
+  height: 70px;
+  width:70px;
+}
+
+main{
+  height: 100vh; /*set based on viewport height*/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: url("images/PomeliaMainPage.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+
+h1{
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+h5{
+  font-size: 1.2rem;
+}
+
+section{
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.about-page,
+.dining ,
+.adventure{
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.about-page img,
+.dining img ,
+.adventure img{
+  height: 80%;
+  width: 70%;
+  border-radius: 50px;
+  padding: 1rem 1.5rem;
+}
+
+.about-paragraph h4,
+.dining h4 ,
+.adventure h4{
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.about-page p
+.dining p ,
+.adventure p{
+  font-size: 1.1rem;
+}
+
+.contact-section{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.contact-form {
+  flex: 1;
+  max-width: 45%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  padding: 0.75rem 2rem;
+  border: none;
+  background-color: #001F3F;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #006bb3;
+}
+
+
+.contact-details h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.contact-details p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+
+footer{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: brown;
+}
+
+.links h6{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+footer ul li img{
+  height: 2rem;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+

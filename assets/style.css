@@ -21,17 +21,17 @@ nav {
   top: 0;
 }
 
-nav ul {
+nav>ul {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
 }
 
-nav ul li {
+nav>ul>li {
   padding: 1.5rem 1.7rem;
 }
 
-nav li a {
+nav>ul>li>a {
   text-decoration: none;
   color: white;
 }

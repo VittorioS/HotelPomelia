@@ -1,27 +1,27 @@
 /*we use the universal selector to remove the default margin and padding and 
 to ensure padding and border are included within the elements total width and height*/
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
   font-family: "Architects Daughter", cursive;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-around;
-  align-items: center; 
+  align-items: center;
   align-items: center;
   background-color: #001F3F;
   position: sticky;
   top: 0;
 }
 
-nav ul{
+nav ul {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
@@ -31,19 +31,20 @@ nav ul li {
   padding: 1.5rem 1.7rem;
 }
 
-nav li a{
+nav li a {
   text-decoration: none;
   color: white;
 }
 
-.logo img{
+.logo img {
   border-radius: 70px;
   height: 70px;
-  width:70px;
+  width: 70px;
 }
 
-main{
-  height: 100vh; /*set based on viewport height*/
+main {
+  height: 100vh;
+  /*set based on viewport height*/
   width: 100%;
   display: flex;
   justify-content: center;
@@ -58,16 +59,16 @@ main{
 }
 
 
-h1{
+h1 {
   font-size: 5rem;
   margin-bottom: 1rem;
 }
 
-h5{
+h5 {
   font-size: 1.2rem;
 }
 
-section{
+section {
   height: 100vh;
   display: flex;
   width: 100%;
@@ -75,8 +76,8 @@ section{
 }
 
 .about-page,
-.dining ,
-.adventure{
+.dining,
+.adventure {
   justify-content: space-around;
   align-items: center;
   text-align: center;
@@ -84,8 +85,8 @@ section{
 }
 
 .about-page img,
-.dining img ,
-.adventure img{
+.dining img,
+.adventure img {
   height: 80%;
   width: 70%;
   border-radius: 50px;
@@ -93,19 +94,18 @@ section{
 }
 
 .about-paragraph h4,
-.dining h4 ,
-.adventure h4{
+.dining h4,
+.adventure h4 {
   font-size: 2rem;
   padding-bottom: 20px;
 }
 
-.about-page p
-.dining p ,
-.adventure p{
+.about-page p .dining p,
+.adventure p {
   font-size: 1.1rem;
 }
 
-.contact-section{
+.contact-section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -182,34 +182,30 @@ section{
 }
 
 
-footer{
+footer {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
   background-color: brown;
 }
 
-.links h6{
+.links h6 {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
 
-footer ul{
+footer ul {
   list-style-type: none;
 }
 
-footer ul li img{
+footer ul li img {
   height: 2rem;
 }
 
-.links{
+.links {
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
 }
-
-
-
-
